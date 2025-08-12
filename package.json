@@ -1,0 +1,34 @@
+{
+  "name": "vibelink-social-app",
+  "version": "1.0.0",
+  "description": "VibeLink - 3D活力风格社交APP",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "vite preview --port 3000"
+  },
+  "dependencies": {
+    "three": "^0.158.0",
+    "@react-three/fiber": "^8.15.11",
+    "@react-three/drei": "^9.88.13",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.0",
+    "framer-motion": "^10.16.4",
+    "styled-components": "^6.1.1",
+    "zustand": "^4.4.7",
+    "socket.io-client": "^4.7.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.8",
+    "typescript": "^5.2.2"
+  },
+  "keywords": ["social", "3d", "react", "three.js", "ar"],
+  "author": "VibeLink Team",
+  "license": "MIT"
+}
